@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.author       = { "zhangjialin" => "zhangjialin0611@126.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/ZhangJialinZack/ZJLGeneratePropertyForCategory.git", :tag => "0.0.1" }
-  s.source_files  = "Generate", "ZJLGeneratePropertyForCategory/Generate/*.{h，m}"
+  s.source_files  = "Generate", "ZJLGeneratePropertyForCategory/Generate/*.{h,m}"
   s.requires_arc = true
 end
